@@ -98,7 +98,7 @@
 &kp LS(SLASH)  &kp LS(INTERNATIONAL_3)  &kp MINUS        &kp SEMICOLON    &kp SQT                 &kp LG(LS(LEFT_ARROW))  &kp LC(LS(TAB))    &kp UP_ARROW      &kp LC(TAB)       &kp LG(LS(RIGHT_ARROW))
 &kp LS(N1)     &kp LS(N8)               &kp LEFT_BRACKET &kp LS(N9)       &kp SQT                 &kp LG(LEFT_ARROW)      &kp LEFT_ARROW     &kp DOWN_ARROW    &kp RIGHT_ARROW   &kp LG(RIGHT_ARROW)
 &kp LS(COMMA)  &kp RIGHT_BRACKET        &kp SLASH        &kp BACKSLASH    &kp LS(PERIOD)          &kp LC(N)               &kp LA(LEFT_ARROW) &kp LG(F3)        &kp LA(RIGHT_ARROW) &kp LG(Q)
-&trans         &trans                   &trans           &trans           &trans       &trans      &trans                 &kp DEL            &trans            &trans            &trans
+&trans         &trans                   &trans           &trans           &trans       &kp DEL    &trans                  &trans             &trans            &trans            &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
