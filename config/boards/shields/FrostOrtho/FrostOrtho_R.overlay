@@ -73,8 +73,8 @@
         input-processors = <
             &zip_scroll_transform (INPUT_TRANSFORM_X_INVERT) // 現行設定を踏襲。方向が合わなければ調整
             &zip_xy_to_scroll_mapper
-            &zip_scroll_x_scaler 1 4 // X軸スクロール量1/4倍
-            &zip_scroll_y_scaler 1 4 // Y軸スクロール量1/4倍
+            &zip_scroll_x_scaler 1 8 // X軸スクロール量1/8倍
+            &zip_scroll_y_scaler 1 8 // Y軸スクロール量1/8倍
         >;
     };
 };
