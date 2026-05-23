@@ -60,7 +60,7 @@
         input-processors = <
             &mouse_runtime_input_processor
             // &zip_temp_layer 6 100000 // 自動MOUSEレイヤーを使わないので無効化
-            &zip_xy_scaler 2 3 // カーソル移動量2/3倍
+            &zip_xy_scaler 3 1 // カーソル移動量3倍
             // &zip_xy_transform INPUT_TRANSFORM_X_INVERT // カーソルの移動方向調整
             &zip_xy_transform INPUT_TRANSFORM_Y_INVERT // カーソルの移動方向調整
         >;
@@ -73,8 +73,8 @@
         input-processors = <
             &zip_scroll_transform (INPUT_TRANSFORM_X_INVERT) // 現行設定を踏襲。方向が合わなければ調整
             &zip_xy_to_scroll_mapper
-            &zip_scroll_x_scaler 2 3 // X軸スクロール量。0にしない
-            &zip_scroll_y_scaler 2 3 // Y軸スクロール量。0にしない
+            &zip_scroll_x_scaler 1 4 // X軸スクロール量1/4倍
+            &zip_scroll_y_scaler 1 4 // Y軸スクロール量1/4倍
         >;
     };
 };
