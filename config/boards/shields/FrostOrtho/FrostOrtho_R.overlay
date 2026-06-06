@@ -2,7 +2,7 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-#include <input/processors/runtime-input-processor.dtsi>
+// #include <input/processors/runtime-input-processor.dtsi>
 #include <behaviors/battery_history_request.dtsi>
 
 &default_transform {
@@ -58,7 +58,7 @@
         device = <&trackball>;
 
         input-processors = <
-            &mouse_runtime_input_processor
+            // &mouse_runtime_input_processor
             // &zip_temp_layer 6 100000 // 自動MOUSEレイヤーを使わないので無効化
             &zip_xy_scaler 2 1 // カーソル移動量2倍
             // &zip_xy_transform INPUT_TRANSFORM_X_INVERT // カーソルの移動方向調整
